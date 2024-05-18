@@ -7,7 +7,7 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
 
     margin-right: 5rem;
@@ -19,7 +19,6 @@
     font-size: 62px;
     line-height: 75px;
     letter-spacing: -0.04em;
-    align-items: center;
 }
 
 .spotit__header-content p {
@@ -28,7 +27,7 @@
     font-size: 20px;
     line-height: 28px;
     color: var(--color-text);
-    align-items: center;
+
     margin-top: 1.5rem;
 }
 
@@ -75,31 +74,6 @@
 
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-}
-
-.spotit__header-content__people {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-
-    margin-top: 2rem;
-}
-
-.spotit_header-content__people img {
-    width: 181.79px;
-    height: 38px;
-}
-
-.spotit__header-content__people p {
-    margin: 0 0 0 1rem;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 38px;
-    color: #fff;
-    text-align: center;
 }
 
 .spotit__header-image {
