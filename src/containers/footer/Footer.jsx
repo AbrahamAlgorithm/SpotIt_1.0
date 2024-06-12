@@ -15,13 +15,12 @@ const Footer = () => (
     <div className="spotit__footer-links">
       <div className="spotit__footer-links_logo">
         <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>SpotIt<br /> All Rights Reserved</p>
+        <p>All Rights Reserved</p>
       </div>
       <div className="spotit__footer-links_div">
         <h4>Links</h4>
         <p>How It Works</p>
         <p>Social Media</p>
-        <p>Contact Us</p>
       </div>
       <div className="spotit__footer-links_div">
         <h4>Company</h4>
@@ -30,10 +29,14 @@ const Footer = () => (
       </div>
       <div className="spotit__footer-links_div">
         <h4>Get in touch</h4>
-        <p>Email: contact@spotit.com</p>
-        <p></p>
-        <p>info@payme.net</p>
+        <p>
+          <a href="mailto:abrahamfolorunso6@gmail.com">Send Email</a>
+        </p>
+        <p>
+          Love the project? Join the team! <a href="https://wa.me/+2349039419430"></a>
+        </p>
       </div>
+
     </div>
 
     <div className="spotit__footer-copyright">

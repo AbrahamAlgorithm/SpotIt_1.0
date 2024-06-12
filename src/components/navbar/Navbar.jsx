@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="spotit__navbar">
       <div className="spotit__navbar-links">
         <div className="spotit__navbar-links_logo">
-          <img src={logo} />
+          <img src={logo} alt='Spotit logo'/>
         </div>
         <div className="spotit__navbar-links_container">
           <p><a href="#home">Home</a></p>
